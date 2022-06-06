@@ -1,0 +1,17 @@
+.escenario{
+    border: 1px solid #333;
+    padding: 10px;
+
+}
+.escenario-1{
+    font-size: 2em;
+}
+.escenario-2{
+    font-size: 16px;
+}
+.em{
+    font-size: 2em; /*em coge de base su contendedor. Relativo al padre donde esta contenido este elemento*/
+}
+.eem{
+    font-size: 2rem;/*em coge de base la página entera */
+}

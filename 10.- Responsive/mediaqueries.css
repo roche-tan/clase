@@ -1,0 +1,40 @@
+h1{
+    color: red;
+    font-size: 4rem;
+}
+
+p {
+    color: black;
+    font-size: 2rem;
+}
+
+/* @media print and (max-width: 576px){/*Cuando se va a imprimir y máx width sea inferior a 576px se van a utilizar las caracteristicas de abajo
+    h1{
+        color:blue
+    }
+    
+} */
+
+@media (max-width: 576px){
+    h1{
+        color:blue;
+    }
+    
+}
+@media (min-width: 995px){
+    h1{
+        color:green;
+    }
+    
+}
+@media (min-height: 300px), (min-width: 1110px) {
+    h1{
+        color: cyan
+    }
+    
+}
+@media(orientation:landscape) and (min-height: 400px){ /*se tienen que dar las dos condiciones*/
+    p{
+        color: brown
+    }
+}

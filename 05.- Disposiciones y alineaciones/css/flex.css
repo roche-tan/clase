@@ -1,0 +1,31 @@
+/* https://codepen.io/enxaneta/full/adLPwv */
+
+
+.flex{
+    display: flex;
+    flex-direction: column ;/*por defecto row*/
+    background-color: yellow;
+    height: 300px;
+    align-items: flex-end; /*por defecto sale en stretch. Se adapta al contenido del contenedor*/
+    justify-content: space-around; /*por defecto esá en start*/
+    /* flex-wrap: wrap; por defecto nowrap. Wrap no cambia el redimensionamiento de la clase */
+    
+}
+.contenido-1{
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
+.contenido-2{
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
+.contenido-3{
+    background-color: pink;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}

@@ -1,0 +1,22 @@
+/*(1,0,0) - Este tiene más prioridad que los anteriores
+(0,2,0)
+(0,1,0)
+(0,0,1)
+(0,0,0)*/
+
+h1{
+    color: blue !important; /*al tener ! este esilo prevalecerá sobre todos los demás Evitar en la medida de lo posible*/
+}
+.h1-clase{
+    color: yellow;
+}
+h1#h1-id.h1-clase{ 
+    color: darksalmon;
+}
+/*h1#h1-id\ h1-otroid.h1-clase{ el simbolo \ suma las dos ids
+    color: darksalmon;
+}*/
+
+p{
+    color: red;
+}
